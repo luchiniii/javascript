@@ -5,8 +5,21 @@
 </head>
 <body>
  	<h1>Ejercicios con javascript</h1>
-
+ 	<div class="contenedor">
+ 		<h2 id="titulo">Hola esta es una prueba de javascript</h2>
+ 	</div>
 	<script type="text/javascript">
+		/*Obtener elementos por el ID*/
+		var titulo = document.getElementById("titulo");
+		// console.log(titulo);
+
+		/*Obtener elementos por la clase*/
+		var contenedor = document.getElementsByClassName("contenedor");
+		// console.log(contenedor);
+
+		/*Obtener elementos por el nombre de la etiqueta*/
+		var contenedor2 = document.getElementsByTagName("contenedor");
+		console.log(contenedor2);
 	</script>
 </body>
 </html>
